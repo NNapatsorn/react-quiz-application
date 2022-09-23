@@ -1,0 +1,40 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  background-color: #fff4e344;
+  height: 950px;
+}
+
+.menu,
+.quiz {
+  width: 500px;
+  height: 500px;
+  background-color: #86beb6;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 5px 1px 50px #7ac9bd;
+  margin: 50px;
+}
+
+.menu button, .quiz button {
+  width: 300px;
+  height: 50px;
+  margin: 5px;
+  border-radius: 5px;
+  border: none;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  background-color: #f2edb3;
+}
+
+button:active,
+button:hover {
+  background: #ffeecb;
+}
